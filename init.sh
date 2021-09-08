@@ -31,10 +31,4 @@ fi
 # This addresses an issue when installing h5py. See https://stackoverflow.com/a/65220265
 # and also see https://github.com/jetson-nano-wheels/commons/init.sh
 
-# pip install -v --upgrade --ignore-installed 'ndindex>=1.5.1'
-
-pip install -v numpy
-pip install -v pybind11
-pip install -v --upgrade protobuf uff
-pip install -v versioned-hdf5
-pip install -v h5py
+pip install -v pybind11 versioned-hdf5 h5py jsmin==2.0

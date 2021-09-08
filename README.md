@@ -8,6 +8,7 @@ Cusim 0.0.2 for Python 3.8 running on the Nvidia Jetson Tegra.
 If you have `pip` (which should be run in a suitable virtual environment) this should work:
 
 ```sh
+pip install -v pybind11 versioned-hdf5 h5py jsmin==2.0
 pip install 'https://github.com/jetson-nano-wheels/python3.8-cusim-0.0.2/releases/download/v0.0.1/cusim-0.0.2-cp38-cp38-linux_aarch64.whl'
 ```
 
